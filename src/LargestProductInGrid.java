@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Euler {
+public class LargestProductInGrid {
 	public int getMaxInGrid(int[][] grid, int count){
 		return getMax(getGridProducts(grid, count));
 	}
